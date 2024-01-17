@@ -1,0 +1,662 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: #454545;
+
+}
+
+.nav h4 {
+    color: white;
+    font-size: 12px;
+    font-weight: 450;
+}
+
+.nav i {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.empty {
+    width: 100%;
+    height: 40px;
+}
+
+.empty h5 {
+    font-weight: 500;
+    font-size: 11px;
+    padding: 11px;
+    text-align: center;
+}
+
+.page1 {
+    height: 630px;
+    width: 100%;
+    background-image: url(https://www.apple.com/in/home/heroes/back-to-school-2023/images/hero_bts2023_startframe__f787lg06y3ue_large_2x.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.page1 h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-top: 50px;
+    font-weight: 550;
+    text-align: center;
+    justify-content: center;
+}
+
+.page1 p {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.page1 .btn {
+    font-size: 20px;
+    color: #0066CC;
+    border: none;
+    position: absolute;
+    left: 46%;
+    padding-top: 10px;
+    cursor: pointer;
+
+
+
+}
+
+.page1 .btn:hover {
+    text-decoration: underline;
+}
+
+.empty h5 .btn {
+    font-size: 11px;
+    color: #0066CC;
+    border: none;
+    font-weight: 600;
+    background-color: #fff;
+    position: absolute;
+    cursor: pointer;
+
+
+
+}
+
+.empty h5 .btn:hover {
+    text-decoration: underline;
+}
+
+
+
+.content2 {
+    background-color: black;
+    background-image: url(https://pbs.twimg.com/media/FzO48mMaQAAX5ly?format=jpg&name=4096x4096);
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.content2 h1 {
+    padding-top: 55px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 45px;
+    justify-content: center;
+}
+
+.content2 h3 {
+    font-size: 25px;
+    padding-top: 5px;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.content2 .btn {
+    font-size: 20px;
+    color: #0066CC;
+    background-color: black;
+    border: none;
+    position: absolute;
+    left: 53%;
+    padding-top: 10px;
+    cursor: pointer;
+
+
+
+}
+
+.content2 .btn:hover {
+    text-decoration: underline;
+}
+
+
+.content2 .btn1 {
+    font-size: 20px;
+    color: #0066CC;
+    background-color: black;
+    border: none;
+    position: absolute;
+    left: 42%;
+    padding-top: 10px;
+    cursor: pointer;
+
+
+
+}
+
+.content2 .btn1:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.content3 {
+    margin-top: 0px;
+    background-image: url(https://www.apple.com/in/home/heroes/iphone-14/images/hero_iphone14_yellow__eun20sn4imi6_large_2x.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content3 h1 {
+    padding-top: 80px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 45px;
+    justify-content: center;
+}
+
+.content3 h3 {
+    font-size: 25px;
+    padding-top: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+}
+
+
+.content3 .btn {
+    font-size: 20px;
+    color: #0066CC;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    position: absolute;
+    left: 53%;
+    padding-top: 10px;
+    cursor: pointer;
+
+
+
+}
+
+.content3 .btn:hover {
+    text-decoration: underline;
+}
+
+
+.content3 .btn1 {
+    font-size: 20px;
+    color: #0066CC;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    position: absolute;
+    left: 42%;
+    padding-top: 10px;
+    cursor: pointer;
+
+
+
+}
+
+.content3 .btn1:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.content4 {
+    display: flex;
+    height: 550px;
+width: 100%;
+}
+
+.content4 .left {
+    height: 550px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    background-image: url(https://www.apple.com/in/home/images/promos/why-switch/chirag/promo_switch_to_iphone__dcdfmymgd5ci_large_2x.jpg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size:90%;
+    background-position:bottom;
+}
+
+.content4 .right {
+    height: 550px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    background-image: url(https://www.icon.co.cr/wp-content/uploads/2023/07/mb-air-home.jpg);
+    background-repeat: no-repeat;
+    background-size:70%;
+    background-position:bottom;
+   
+}
+
+
+.content4 .right h1 {
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+.content4 .left h1 {
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+.content4 .left p {
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.content4 .right p {
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.content4 .right .btn22 {
+    padding-left: 5px;
+    font-size: 18px;
+    color: #0080ff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding-top:10px ;
+
+
+
+}
+.content4 .right .btn22:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.content4 .left .btn11 {
+    padding-left: 5px;
+    font-size: 18px;
+    color: #0080ff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding-top:10px ;
+
+
+
+
+}
+.content4 .left .btn11:hover {
+    text-decoration: underline;
+}
+
+
+
+.content5{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    height: 550px;
+    width: 100%;
+    background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+}
+
+.content5 .left{
+    width: 47%;
+    height:550px;
+    background-color: black;
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ1-qx6_dBhCCDxF-XWj5OUd8EXf5Kt6IJpBOE9iBI0Y7H95FNg);
+    background-repeat: no-repeat;
+    background-size:60%;
+    background-position:bottom;
+}
+.content5 .right{
+    width: 53%;
+    height:550px;
+    background-color: black;
+    background-image: url(https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-ipad-pro-202210_GEO_MY?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1665114493573);
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-position:bottom;
+
+}
+
+
+
+.content5 .left h1{
+    color: #fff;
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+.content5 .left h3{
+    padding: 3px;
+    text-transform: uppercase;
+    color: #ff0000;
+    text-align: center;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.content5 .left h4{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.content5 .right h1{
+    color: #fff;
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.content5 .right h4{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.content5 .left .btn33 {
+    padding-left: 5px;
+    font-size: 18px;
+    color: #0080ff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding-top:10px ;
+
+
+
+
+}
+.content5 .left .btn33:hover {
+    text-decoration: underline;
+}
+
+.content5 .right .btn44 {
+    padding-left: 5px;
+    font-size: 18px;
+    color: #0080ff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding-top:10px ;
+
+
+
+
+}
+.content5 .right .btn44:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content6{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    height: 550px;
+    width: 100%;
+    background-color:color-mix(in hsl shorter hue, color percentage, color percentage);
+}
+
+.content6 .left{
+    width: 47%;
+    height:550px;
+    background-color: black;
+    background-image: url(https://bsmedia.business-standard.com/_media/bs/img/article/2022-09/11/full/1662894794-8874.jpg);
+    background-repeat: no-repeat;
+    background-size:80%;
+    justify-content: center;
+    background-position:bottom;
+}
+.content6 .right{
+    color: black;
+    width: 53%;
+    height:550px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-watch-s9-202309_GEO_IN?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1693501324197);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position:center;
+
+}
+
+
+
+.content6 .left h1{
+    color: #ffffff;
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.content6 .left h4{
+    padding-top: 8px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.content6 .right h1{
+    color: #ffffff;
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+.content6 .right h1{
+    color: #ffffff;
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.content6 .right h4{
+    padding-top: 8px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.content6 .left .btn33 {
+    padding-left: 5px;
+    font-size: 18px;
+    color: #0080ff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding-top:10px ;
+
+
+
+
+}
+.content6 .left .btn33:hover {
+    text-decoration: underline;
+}
+
+.content6 .right .btn44 {
+    padding-left: 5px;
+    font-size: 18px;
+    color: #0080ff;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding-top:10px ;
+
+
+
+
+}
+.content6 .right .btn44:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer{
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(234, 234, 234);
+    display:flex ;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+.topdiv{
+    height: 40%;
+    width: 100%;
+    border-bottom: 1.5px solid rgb(174, 174, 174);
+}
+.topdiv p{
+    font-size: 12px;
+    padding: 0px 120px;
+}
+.bottomdiv{
+    height: 60%;
+    width: 100%;
+    padding: 0px 120px;
+    display: flex;
+    gap: 13px;
+}
+
+.one, .two, .three, .four, .five{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.one, .two, .three, .four, .five, small{
+  font-size: 12px;
+    
+}
